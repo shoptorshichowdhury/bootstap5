@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap5</title>
+    <!-- Css Links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+   
+    <div class="container">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+          <label for="f_name" class="form-label">First name</label>
+          <input type="text" class="form-control f_name" id="f_name" name="f_name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Enter Your First Name.
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="L_name" class="form-label">Last name</label>
+          <input type="text" class="form-control L_name" id="L_name" name="L_name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Enter Your Last Name.
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="User1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="User1">
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Enter Your Username.
+          </div>
+        </div>
+        <div class= "mb-3 col-md-6"  >
+           <label for="my_email " class="form-label">Email address</label>
+           <input type="email" class="form-control my_email" id="my_email  "  name="my_email "
+           placeholder="name@example.com" required>
+          
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Enter Your Email Address.
+          </div>
+        </div>
+        <div class="mb-3 col-md-6">
+           <label for="my_password" class="form-label">Password</label>
+           <input type="password" class="form-control  my_password" id="my_password" name="my_password"
+           required>
+        </div>
+        <div class="mb-3 col-12">
+          <label for="address1" class="form-label">Address 1</label>
+          <input type="text" class="form-control address1" id="address1" name="address1" placeholder="Chattogram" required>
+        </div>
+        <div class="mb-3 col-12">
+          <label for="address2" class="form-label">Address 2</label>
+          <input type="text" class="form-control address2" id="address2" name="address2" placeholder="Dhaka" required>
+        </div>
+        <div class="col-md-6">
+          <label for="city1" class="form-label">City</label>
+          <input type="text" class="form-control city1" id="city1" name="city1" required>
+        </div>
+        <div class="col-md-4">
+          <label for="state1" class="form-label">State</label>
+          <select id="state1" class="form-select state1" name="state1" required>
+            <option selected>Dhaka</option>
+            <option selected>Chattogram</option>
+            <option selected>Cumilla</option>
+            <option selected>Bogura</option>
+            <option selected>Choose...</option>
+           
+           
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="zip1" class="form-label">Zip</label>
+          <input type="text" class="form-control zip1" id="zip1" name="zip1" required>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Radio1" >
+          <label class="form-check-label" for="Radio1">
+            Male
+          </label>
+        </div>
+        <div class="mb-3 form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="Radio2" checked>
+          <label class="form-check-label" for="Radio2">
+            Female
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="textarea1" class="form-label textarea1">Notice</label>
+          <textarea class="form-control" id="textarea1" rows="3"></textarea>
+        </div>
+        
+       
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </div>
+        
+      </form>
+    </div>
+
+    <!-- Js Links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
